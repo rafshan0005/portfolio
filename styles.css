@@ -28,6 +28,12 @@ header {
 
 header .container {
     display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.profile {
+    display: flex;
     align-items: center;
 }
 
@@ -57,8 +63,11 @@ nav ul li a:hover {
     color: #ffc107;
 }
 
-section {
-    padding: 40px 0;
+.content {
+    background-color: #fff;
+    padding: 40px;
+    margin-top: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 section h2 {
@@ -70,26 +79,4 @@ footer {
     color: #fff;
     padding: 20px 0;
     text-align: center;
-}
-
-/* Responsive styles */
-@media (max-width: 768px) {
-    .container {
-        width: 90%;
-    }
-
-    header .container {
-        flex-direction: column;
-        align-items: center;
-        text-align: center;
-    }
-
-    .profile-img {
-        margin-bottom: 10px;
-    }
-
-    nav ul li {
-        display: block;
-        margin: 10px 0;
-    }
 }
