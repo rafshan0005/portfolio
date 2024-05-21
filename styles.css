@@ -24,12 +24,7 @@ header {
     background-color: #333;
     color: #fff;
     padding: 20px 0;
-}
-
-header .container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+    position: relative;
 }
 
 .profile {
@@ -42,6 +37,12 @@ header .container {
     height: 100px;
     border-radius: 50%;
     margin-right: 20px;
+}
+
+nav {
+    position: absolute;
+    top: 20px;
+    right: 20px;
 }
 
 nav ul {
@@ -68,6 +69,7 @@ nav ul li a:hover {
     padding: 40px;
     margin-top: 20px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    position: relative;
 }
 
 section h2 {
